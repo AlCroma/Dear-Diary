@@ -1,0 +1,2 @@
+rootProject.name='Int_Ext Project'
+include ':app'

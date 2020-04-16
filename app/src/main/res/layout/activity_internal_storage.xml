@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    tools:context=".InternalStorageActivity">
+
+    <EditText
+        android:id="@+id/int_date_et"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="7"
+        android:textAlignment="center"
+        android:layout_below="@id/int_read_btn"
+        android:hint="DD/MM/YYYY"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-light"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/int_text_et"
+        android:layout_width="match_parent"
+        android:maxLines="6"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-light"
+        android:hint="Write about your day......"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/int_read_btn"
+        android:layout_width="220dp"
+        android:layout_alignParentRight="true"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-light"
+        android:layout_height="wrap_content"
+        android:text="Read From Diary" />
+
+    <Button
+        android:id="@+id/int_write_btn"
+        android:layout_below="@id/int_text_et"
+        android:textSize="20sp"
+        android:layout_marginTop="18dp"
+        android:fontFamily="sans-serif-light"
+        android:layout_centerHorizontal="true"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="Write To Diary" />
+</RelativeLayout>

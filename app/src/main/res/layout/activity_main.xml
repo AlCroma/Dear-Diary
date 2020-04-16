@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="90dp"
+        android:fontFamily="cursive"
+        android:text="Dear Diary"
+        android:textAlignment="center"
+        android:textSize="70sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:fontFamily="sans-serif-light"
+        android:textAlignment="center"
+        android:text="Where do you want to save your diary?"
+        android:textSize="21sp" />
+
+    <Button
+        android:id="@+id/int_strg_btn"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="18dp"
+        android:fontFamily="sans-serif-thin"
+        android:text="Internal Storage"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/ext_strg_btn"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="18dp"
+        android:fontFamily="sans-serif-thin"
+        android:text="External Storage"
+        android:textSize="20sp" />
+
+</LinearLayout>
